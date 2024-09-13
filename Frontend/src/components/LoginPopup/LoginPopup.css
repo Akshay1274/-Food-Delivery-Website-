@@ -1,0 +1,130 @@
+/* Styles for the LoginPopup container */
+.LoginPopup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5); /* semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Styles for the form container */
+.login-popup-container {
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: center;
+}
+
+/* Title section styling */
+.login-popup-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.login-popup-title h2 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+.login-popup-title img {
+    cursor: pointer;
+    width: 24px;
+    height: 24px;
+}
+
+/* Input fields styling */
+.login-popup-inputs input {
+    width: 100%;
+    padding: 12px 16px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #333;
+}
+
+.login-popup-inputs input:focus {
+    outline: none;
+    border-color: #888;
+}
+
+/* Button styling */
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4500;
+}
+
+/* Checkbox and condition text styling */
+.login-popup-condition {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    font-size: 14px;
+    color: #666;
+    text-align: left;
+}
+
+.login-popup-condition input[type="checkbox"] {
+    margin-right: 10px;
+    margin-top: 3px;
+}
+
+/* Text and links styling */
+.login-popup-container p {
+    font-size: 14px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.login-popup-container p span {
+    color: #ff6347;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.login-popup-container p span:hover {
+    color: #ff4500;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .login-popup-container {
+        padding: 20px;
+        width: 90%;
+    }
+
+    button {
+        font-size: 14px;
+    }
+
+    .login-popup-inputs input {
+        font-size: 14px;
+    }
+
+    .login-popup-title h2 {
+        font-size: 20px;
+    }
+}

@@ -8,7 +8,7 @@ const Header = () => {
         <h2>Order Your favourite Food here</h2>
         <p>
           Choose from a diverse menu featuring a delectable array of dishes
-          crafted with the finest ingrediants and culinary expertise. Our missin
+          crafted with the finest ingrediants and culinary expertise. Our mission
           is to satisfy your cravings and elevate your dining experience, one
           delicious meal at a time.
         </p>
